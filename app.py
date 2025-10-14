@@ -14,7 +14,7 @@ def login():
     password = request.form['password']
 
     # Ejemplo de usuario válido
-    if email == "admin@gmail.com" and password == "1234":
+    if email == "Bryan@gmail.com" and password == "12345":
         return redirect(url_for('dashboard'))
     else:
         # Retorna de nuevo el login con un mensaje de error
