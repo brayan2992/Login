@@ -1,6 +1,6 @@
 /*  Fondo general de la página */
 body {
-    background: url("") no-repeat center center fixed;
+    background: url("https://lasierrainternationalschool.edu.co/wp-content/uploads/2023/10/BANNER-WEBB-scaled.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: #fff;
@@ -61,18 +61,17 @@ body {
 
 /*  Botón principal */
 .btn-primary {
-    background: linear-gradient(45deg, #2a008d, #00c6ff);
+    background: linear-gradient(45deg, #1b1b1b, #151515);
     border: none;
     border-radius: 10px;
     font-weight: bold;
     padding: 10px 0;
-    transition: all 0.3s ease;
+    
 }
 
 .btn-primary:hover {
-    background: linear-gradient(45deg, #00c6ff, #007bff);
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+    background: linear-gradient(45de, #414142);
+   
 }
 
 /*  Título */
