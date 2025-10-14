@@ -1,4 +1,4 @@
-/* 🌆 Fondo general de la página */
+/*  Fondo general de la página */
 body {
     background: url("https://preview.redd.it/this-wallpaper-in-extremely-good-quality-has-been-living-v0-odw9hyatheie1.jpeg?width=4794&auto=webp&s=68cc594dbff41f112e9763796dd0688d76d50b9f") no-repeat center center fixed;
     background-size: cover;
@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-/* 🌫️ Efecto glass de la tarjeta principal */
+/*  Efecto glass de la tarjeta principal */
 .card {
     background: rgba(0, 0, 0, 0.55); /* Fondo negro semitransparente */
     border-radius: 20px;
@@ -20,7 +20,7 @@ body {
 
 
 
-/* 🖼️ Imagen superior (sin recortar) */
+/*  Imagen superior (sin recortar) */
 #imagen-login {
     width: 100%;
     height: auto;                /* Deja que se ajuste automáticamente */
@@ -37,7 +37,7 @@ body {
     transform: scale(1.05);
 }
 
-/* 🧱 Campos del formulario */
+/*  Campos del formulario */
 .form-control {
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -58,7 +58,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 198, 255, 0.6);
 }
 
-/* 🔘 Botón principal */
+/*  Botón principal */
 .btn-primary {
     background: linear-gradient(45deg, #2a008d, #00c6ff);
     border: none;
@@ -74,14 +74,14 @@ body {
     box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
 }
 
-/* 🪟 Título */
+/*  Título */
 h3 {
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-/* 📱 Adaptación para móviles */
+/*  Adaptación para móviles */
 @media (max-width: 480px) {
     .card {
         width: 90%;
