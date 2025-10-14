@@ -1,10 +1,11 @@
 /*  Fondo general de la página */
 body {
-    background: url("https://preview.redd.it/this-wallpaper-in-extremely-good-quality-has-been-living-v0-odw9hyatheie1.jpeg?width=4794&auto=webp&s=68cc594dbff41f112e9763796dd0688d76d50b9f") no-repeat center center fixed;
+    background: url("") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     margin: 0;
+    
 }
 
 /*  Efecto glass de la tarjeta principal */
@@ -90,4 +91,8 @@ h3 {
     #imagen-login {
         height: 120px;
     }
+}
+/*imagen escondida*/
+#imagen-login {
+    display: none;
 }
