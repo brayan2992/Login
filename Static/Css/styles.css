@@ -1,0 +1,93 @@
+/* 🌆 Fondo general de la página */
+body {
+    background: url("https://preview.redd.it/this-wallpaper-in-extremely-good-quality-has-been-living-v0-odw9hyatheie1.jpeg?width=4794&auto=webp&s=68cc594dbff41f112e9763796dd0688d76d50b9f") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+/* 🌫️ Efecto glass de la tarjeta principal */
+.card {
+    background: rgba(0, 0, 0, 0.55); /* Fondo negro semitransparente */
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+/* 🖼️ Imagen superior (sin recortar) */
+#imagen-login {
+    width: 100%;
+    height: auto;                /* Deja que se ajuste automáticamente */
+    max-height: 200px;           /* Puedes ajustar este valor */
+    object-fit: contain;         /* Muestra toda la imagen */
+    border-radius: 15px;
+    margin-bottom: 17px;
+    transition: transform 0.4s ease;
+}
+
+
+/* Efecto animado en la imagen */
+#imagen-login:hover {
+    transform: scale(1.05);
+}
+
+/* 🧱 Campos del formulario */
+.form-control {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    border-color: #00c6ff;
+    box-shadow: 0 0 10px rgba(0, 198, 255, 0.6);
+}
+
+/* 🔘 Botón principal */
+.btn-primary {
+    background: linear-gradient(45deg, #2a008d, #00c6ff);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #00c6ff, #007bff);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+/* 🪟 Título */
+h3 {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* 📱 Adaptación para móviles */
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+    #imagen-login {
+        height: 120px;
+    }
+}
