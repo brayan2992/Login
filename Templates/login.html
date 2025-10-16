@@ -10,6 +10,7 @@
     <!-- Tu CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
+
 <body class="d-flex justify-content-center align-items-center vh-100">
     <div class="card shadow p-4 text-center" style="width: 350px;">
         <h3 class="text-center mb-3">Iniciar sesión</h3>
@@ -26,6 +27,13 @@
                 <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
             </div>
             <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+
+            <!-- 🔹 Enlace para ir al registro -->
+            <div class="text-center mt-3">
+                <a href="{{ url_for('register') }}" class="btn btn-outline-success w-100">
+                    ¿No tienes cuenta? Regístrate aquí
+                </a>
+            </div>
         </form>
     </div>
 
