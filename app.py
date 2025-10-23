@@ -7,7 +7,7 @@ app.secret_key = 'clave_super_secreta'  #  Necesaria para usar sesiones
 # 🔹 Configuración de conexión MySQL
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''  # si tienes contraseña, escríbela aquí
+app.config['MYSQL_PASSWORD'] = ''  # si tienes contraseña, se escribe aqui
 app.config['MYSQL_DB'] = 'login_db'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 app.config['MYSQL_PORT'] = 3306
