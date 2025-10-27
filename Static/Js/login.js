@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // ✅ Si pasa las validaciones, NO usamos e.preventDefault()
+        //  Si pasa las validaciones, NO usamos e.preventDefault()
         // El formulario se enviará normalmente a Flask
     });
 
